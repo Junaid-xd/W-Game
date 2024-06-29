@@ -125,4 +125,8 @@ img[src=""] {
     width: 200px;
     height: 200px;
   }
+  .texttt{
+    width: 220px;
+    border-radius: 10px;
+  }
 }

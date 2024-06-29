@@ -8,7 +8,7 @@ const data = [
 ];  
 
 const emojis = [
- "💩", "🔛🔝", "🏳‍🌈", "🤡", "🖕", "🍼", "💀", "®", "🆓", "💯","🗿","🍑", "کتا🐕","🦁","👙","🫦","🫶"
+ "💩", "🔛🔝", "🏳‍🌈", "🤡", "🖕", "🍼", "💀", "®", "🆓", "💯","🗿","🍑", "کتا🐕","🦁","👙","🫦","🫶","🐷"
 ]
 
 const nons = [
@@ -22,7 +22,7 @@ const nons = [
 
 
 const images = [
-  "./assets/images/hadi-F.jpg", "./assets/images/ibi flower.jpg","./assets/images/ifti.jpg","./assets/images/ibi eat.jpg","./assets/images/me ph.jpg","./assets/images/yasin eat.jpg","./assets/images/yasin mouth.jpg","./assets/images/ibi legs.jpg","./assets/images/ibi pith 1.jpg","./assets/images/aiya in blue.jpg","./assets/images/we burger.jpg","./assets/images/t3.jpg","./assets/images/1.jpg","./assets/images/2.jpg","./assets/images/3.jpg","./assets/images/4.jpg", "./assets/images/5.jpg","./assets/images/6.jpg","./assets/images/7.jpg","./assets/images/8.jpg","./assets/images/9.jpg","./assets/images/10.jpg","./assets/images/11.jpg","./assets/images/12.jpg","./assets/images/13.jpg","./assets/images/14.jpg","./assets/images/15.jpg","./assets/images/16.jpg","./assets/images/17.jpg","./assets/images/18.jpg","./assets/images/19.jpg","./assets/images/20.jpg","./assets/images/21.jpg","./assets/images/22.jpg","./assets/images/23.jpg","./assets/images/24.jpg","./assets/images/25.jpg","./assets/images/26.jpg","./assets/images/27.jpg","./assets/images/28.jpg","./assets/images/29.jpg","./assets/images/30.jpg","./assets/images/31.jpg","./assets/images/32.jpg","./assets/images/33.jpg","./assets/images/34.jpg","./assets/images/35.jpg","./assets/images/36.jpg","./assets/images/37.jpg","./assets/images/38.jpg","./assets/images/39.jpg","./assets/images/40.jpg","./assets/images/41.jpg","./assets/images/42.jpg","./assets/images/43.jpg","./assets/images/44.jpg","./assets/images/45.jpg","./assets/images/47.jpg","./assets/images/48.jpg","./assets/images/49.jpg","./assets/images/50.jpg","./assets/images/51.jpg","./assets/images/52.jpg","./assets/images/53.jpg","./assets/images/54.jpg","./assets/images/55.jpg","./assets/images/56.jpg","./assets/images/57.jpg","./assets/images/58.jpg","./assets/images/59.jpg","./assets/images/60.jpg","./assets/images/61.jpg","./assets/images/62.jpg","./assets/images/63.jpg","./assets/images/64.jpg","./assets/images/65.jpg","./assets/images/66.jpg","./assets/images/67.jpg","./assets/images/68.jpg","./assets/images/69.jpg","./assets/images/70.jpg","./assets/images/71.jpg","./assets/images/72.jpg","./assets/images/73.jpg","./assets/images/74.jpg"
+  "./assets/images/hadi-F.jpg", "./assets/images/ibi flower.jpg","./assets/images/ifti.jpg","./assets/images/ibi eat.jpg","./assets/images/me ph.jpg","./assets/images/yasin eat.jpg","./assets/images/yasin mouth.jpg","./assets/images/ibi legs.jpg","./assets/images/ibi pith 1.jpg","./assets/images/aiya in blue.jpg","./assets/images/we burger.jpg","./assets/images/t3.jpg","./assets/images/1.jpg","./assets/images/2.jpg","./assets/images/3.jpg","./assets/images/4.jpg", "./assets/images/5.jpg","./assets/images/6.jpg","./assets/images/7.jpg","./assets/images/8.jpg","./assets/images/9.jpg","./assets/images/10.jpg","./assets/images/11.jpg","./assets/images/12.jpg","./assets/images/13.jpg","./assets/images/14.jpg","./assets/images/15.jpg","./assets/images/16.jpg","./assets/images/17.jpg","./assets/images/18.jpg","./assets/images/19.jpg","./assets/images/20.jpg","./assets/images/21.jpg","./assets/images/22.jpg","./assets/images/23.jpg","./assets/images/24.jpg","./assets/images/25.jpg","./assets/images/26.jpg","./assets/images/27.jpg","./assets/images/28.jpg","./assets/images/29.jpg","./assets/images/30.jpg","./assets/images/31.jpg","./assets/images/32.jpg","./assets/images/33.jpg","./assets/images/34.jpg","./assets/images/35.jpg","./assets/images/36.jpg","./assets/images/37.jpg","./assets/images/38.jpg","./assets/images/39.jpg","./assets/images/40.jpg","./assets/images/41.jpg","./assets/images/42.jpg","./assets/images/43.jpg","./assets/images/44.jpg","./assets/images/45.jpg","./assets/images/47.jpg","./assets/images/48.jpg","./assets/images/49.jpg","./assets/images/50.jpg","./assets/images/51.jpg","./assets/images/52.jpg","./assets/images/53.jpg","./assets/images/54.jpg","./assets/images/55.jpg","./assets/images/56.jpg","./assets/images/57.jpg","./assets/images/58.jpg","./assets/images/59.jpg","./assets/images/60.jpg","./assets/images/61.jpg","./assets/images/62.jpg","./assets/images/63.jpg","./assets/images/64.jpg","./assets/images/65.jpg","./assets/images/66.jpg","./assets/images/67.jpg","./assets/images/68.jpg","./assets/images/69.jpg","./assets/images/70.jpg","./assets/images/71.jpg","./assets/images/72.jpg","./assets/images/73.jpg","./assets/images/74.jpg","./assets/images/75.jpg","./assets/images/76.jpg","./assets/images/77.jpg","./assets/images/78.jpg","./assets/images/79.jpg","./assets/images/80.jpg"
 ];
 
 let status = false;
@@ -164,9 +164,9 @@ function Users() {
             </div>
             <div className='flex justify-center '>
               <div>
-                <input type="text" placeholder='enter literally anything' className='p-2 texttt mt-2' />
+                <input type="text" placeholder='Enter Literally Anything' className='p-2 texttt mt-2' />
               </div>
-              <div className='flex justify-end absolute right-1'>
+              <div className='flex justify-center absolute right-1'>
                 <button className='bg-red-500 p-1 text-white mt-2' onClick={reset}>Reset</button>
               </div>
             </div>
@@ -177,11 +177,11 @@ function Users() {
 
           <div className='grid [grid-template-columns:1fr_1fr_1fr] gap-4 mt-4'>
             <button className=' bg-black text-cyan-200 rNameBtn' onClick={renderUser}>Pick Random Name</button>
-            <button className=' bg-black text-red-500  rUsBtn' onClick={pickNon}>Pickachu</button>
-            <button className=' bg-black text-red-500  rEmojiBtn' onClick={renderEmoji}>Pick Random Emoji 🗿</button>
+            <button className=' bg-black text-cyan-200  rUsBtn' onClick={pickNon}>Pickachu 🐤</button>
+            <button className=' bg-black text-cyan-200  rEmojiBtn' onClick={renderEmoji}>Pick Random Emoji 🗿</button>
 
             
-            <button className=' bg-black text-red-500  rEmojiBtn' onClick={renderImg}>Pick Random Image</button>
+            <button className=' bg-black text-cyan-200  rEmojiBtn' onClick={renderImg}>Pick Random Image 📷</button>
           </div>
         </div>
 
